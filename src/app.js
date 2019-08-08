@@ -1,7 +1,6 @@
-// install -> import -> use
-// install in terminal: yarn add validator
-// import: check docs for import
-import validator from 'validator';
-// use: check docs for usage
-console.log(validator.isEmail('test@gmail.com'));
-// webpack will exclude modules if not validator__WEBPACK_IMPORTED_MODULE_0__
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const template = React.createElement('p', {}, 'Testing 123');
+
+ReactDOM.render(template, document.getElementById('app'));
