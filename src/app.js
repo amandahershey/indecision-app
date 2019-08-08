@@ -1,12 +1,7 @@
-// //import './utils.js';
-// import subtract, { square, add } from './utils.js';
-//
-// console.log("app.js is working");
-// console.log(square(4));
-// console.log(add(100, 23));
-// console.log(subtract(100, 81));
-
-import isSenior, { isAdult, canDrink } from './person.js';
-console.log(isAdult(18));
-console.log(canDrink(20));
-console.log(isSenior(64));
+// install -> import -> use
+// install in terminal: yarn add validator
+// import: check docs for import
+import validator from 'validator';
+// use: check docs for usage
+console.log(validator.isEmail('test@gmail.com'));
+// webpack will exclude modules if not validator__WEBPACK_IMPORTED_MODULE_0__
