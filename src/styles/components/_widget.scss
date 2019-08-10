@@ -5,20 +5,20 @@
 }
 
 .widget__message{
+  border-bottom: 1px solid lighten($light-blue, 10%);
   color: $off-white;
-  margine: none;
+  margin: none;
   padding: $l-size;
   text-align: center;
-  border-bottom: 1px solid lighten($light-blue, 10%);
 }
 
 // Widget header
 .widget-header{
   background: $blue;
   color: $off-white;
-  padding: $m-size;
   display: flex;
   justify-content: space-between;
+  padding: $m-size;
 }
 
 .widget-header__title {
