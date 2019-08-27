@@ -4,12 +4,9 @@
   "main": "index.js",
   "author": "Amanda Hershey",
   "license": "MIT",
-  "homepage": "http://amandahershey.github.io/indecision-app",
   "scripts": {
     "serve": "live-server public/",
     "build": "webpack",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
     "dev-server": "webpack-dev-server"
   },
   "dependencies": {
@@ -19,21 +16,18 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
-    "create-react-app": "^3.1.1",
     "css-loader": "^3.2.0",
-    "gh-pages": "^2.1.1",
     "live-server": "^1.2.1",
     "node-sass": "^4.12.0",
     "normalize.css": "^8.0.1",
     "react": "16.0.0",
-    "react-dom": "16.0.0",
+    "react-dom": "^16.9.0",
     "react-modal": "^3.9.1",
     "sass-loader": "^7.2.0",
     "style-loader": "^1.0.0",
     "validator": "^11.1.0",
     "webpack": "^4.39.1",
-    "webpack-dev-server": "^3.7.2",
-    "webpack-merge": "^4.2.1"
+    "webpack-dev-server": "^3.7.2"
   },
   "devDependencies": {
     "webpack-cli": "^3.3.6"
